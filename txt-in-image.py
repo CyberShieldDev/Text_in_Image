@@ -25,6 +25,6 @@ def text_in_image():
         out.write(open(f'{txt_file}', 'rb').read())
         print(f"""
 [ / ] Your image is saved as {save_in}
-Just by opening the image with a notepad u and go to below u can see your texts
+Just by opening the image with a notepad, go to below u can see your texts
         """)
 text_in_image()
